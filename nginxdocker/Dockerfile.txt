@@ -1,8 +1,8 @@
 FROM ubuntu:16.04
 
-RUN sudo apt update
+RUN  apt update
 
-RUN sudo apt install nginx -y
+RUN  apt install nginx -y
 
 EXPOSE 80
 
